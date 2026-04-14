@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+   <link rel="stylesheet" href="calculator.css">
+</head>
+<h1>Calculator</h1>
+<body>
+    <div class="calculator-body">
+    <input type="text" value="" class="screen" id="a"/>
+
+    <div class="button-container">
+        <button class="btn" onclick="clr()" >AC</button>
+        <button class="btn" onclick="pick(7)">7</button>
+        <button class="btn" onclick="pick(4)">4</button>
+        <button class="btn" onclick="pick(1)">1</button>
+        <button class="btn" onclick="pick(0)">0</button>
+
+        
+        <button class="btn" onclick="deleteLast()">Del</button>
+        <button class="btn" onclick="pick(8)">8</button>
+        <button class="btn" onclick="pick(5)">5</button>
+        <button class="btn" onclick="pick(2)">2</button>
+        <button class="btn" onclick="pick('.')">.</button>
+
+        <button class="btn" onclick="pick('/')">/</button>
+        <button class="btn" onclick="pick(9)">9</button>
+        <button class="btn" onclick="pick(6)">6</button>
+        <button class="btn" onclick="pick(3)">3</button>
+        <button class="btn" onclick="pick('%')">%</button>
+
+       
+
+             <button class="btn" onclick="pick('*')">X</button>
+         <button class="btn" onclick="pick('-')">-</button>
+          <button class="btn" onclick="pick('+')">+</button>
+           <button class="btn btn-equals" onclick="solve()">=</button>
+            
+    </div>
+</body>
+</html>
